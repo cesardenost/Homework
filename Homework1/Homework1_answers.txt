@@ -1,0 +1,44 @@
+Exercice 1
+PART A
+Question 5
+
+When you press the "Check MetaMask Balance" button with MetaMask connected, the amount displayed in Wei represents your account's balance on the Ethereum blockchain. This value is fetched via the `eth_getBalance` method, which retrieves the balance of your Ethereum account.
+Whether the displayed value is correct depends on the accuracy of the blockchain query and the conversion from hexadecimal to decimal. Since the `HexToWei` function in the code correctly converts the hexadecimal balance from the blockchain to a decimal format using `parseInt(hexBalance, 16)`. 
+It worked really well for me !
+In summary, the value is correct if your wallet is properly connected and the blockchain data is up to date.
+
+PART B 
+Question 1
+
+1st scenario
+The GNU General Public License v3.0. This way, your novel staking system is free use and doesn't restrict the use of your invention, yet the 0 license requires anyone who modifies or redistributes the project to also make their modifications available under the same license. 
+The “copyleft” provision prevents your innovation from being appropriated by proprietary projects without contributing in-kind back to the community, which has natural fit with the decentralized spirit of DeFi.
+
+2nd scenario
+Apache License 2.0 is a permissive open-source software license that enables Google and other companies to release portions of their code base for community maintenance while still preserving proprietary rights over the structure of its core components. 
+It ensures legal protections, such as the indemnity clauses, and allows proprietary data and algorithms on top of it as long as it isn’t a modification or work derived from the original, allowing Google to keep the core tech to itself but encouraging community contributions on certain libraries.
+
+Question 2
+
+The Virtual Machine is a virtual computer within a physical one. In the case of Blockchain, through a Virtual Machine, the implementation of smart contracts is executed precisely the same way on each node of the decentralized network. A good example could be that the Ethereum Virtual Machine enables building and deploying smart contracts with a language called Solidity, making Ethereum and its layer-2 scaling solutions highly interoperable. By contrast, the Solana blockchain is powered by the Solana Virtual Machine, which headlines high-throughput performance combined with ultra-low transaction fees.
+
+The nature of EVM and SVM development communities differs a lot. First of all, the EVM ecosystem is the most adopted; it hosts Ethereum and other networks, such as Polygon and Arbitrum. This infrastructure is rather mature, with well-established tools such as Hardhat, Truffle, and Foundry, making it quite approachable. At the same time, Solidity remains the leading language and thus has a very extensive and experienced developer community, whereas the scaling issues regarding Ethereum in the form of expensive gas and clogged networks gave birth to Layer 2 interest.
+
+On the other side, the world of SVM has been tweaked: most of its codebases are written in Rust and C - guaranteeing memory safety but much more complex. All in all, with parallel execution, Solana is empowered to much lower transaction costs and much faster processing, making it quite attractive for high-performance uses. However, it is still building up its developers' community, and the ecosystem does not have the great interoperability that EVM chains have. Also, network stability remains a top issue: Solana has suffered from periodic downtime.
+
+Ethereum continues to have the most active developers, while Solana provides the fastest growth pace over the past years. Besides that, strong retention kept the ecosystems running, which in turn means that both will keep innovating long into the future. According to the Electric Capital Developer Report, contributions also come from other parts of the world outside the U.S. On community health, EVM is leading with wider adoption and deeper tooling; SVM is catching up from behind, focusing on efficiency and scalability. Both cater to different needs and will probably coexist for some time, keeping EVM at the forefront of interoperability and SVM in high-performance use cases.
+
+Exercice 2
+
+PART C 
+
+Here are the results of Joséphine Laguardia contracts on Remix IDE : 
+
+"JoséphineLaguardiaContractResults2025-01-29.jpg" 
+
+and it works.
+
+
+
+
+
